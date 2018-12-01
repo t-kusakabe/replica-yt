@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  node:
+    build: ./docker/node
+    container_name: replica-yt-node
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
