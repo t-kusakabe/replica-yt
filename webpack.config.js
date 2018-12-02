@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: "development",
   entry: __dirname + '/src/app.tsx',
   output: {
     path: __dirname + '/public',
