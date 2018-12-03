@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack -w"
+    "start": "parcel index.html -d public"
   },
   "dependencies": {
     "react": "^16.6.3",
