@@ -3,7 +3,7 @@ const logo = require('../../img/logo.png');
 
 import ButtonComponent from './utils/button';
 
-const Header = (props: any) => (
+const Header = () => (
   <header>
     <img
       className="logo"
