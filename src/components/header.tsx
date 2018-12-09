@@ -16,6 +16,10 @@ const Header = () => (
       placeholder="検索"
     />
     <ButtonComponent icon='search' />
+    <ButtonComponent icon='video' />
+    <ButtonComponent icon='th' />
+    <ButtonComponent icon='comment' />
+    <ButtonComponent icon='bell' />
   </header>
 );
 
