@@ -5,6 +5,7 @@ services:
     container_name: replica-yt-node
     ports:
       - "1234:1234"
+      - "8080:8080"
     volumes:
       - .:/app
     tty: true
