@@ -13,7 +13,7 @@ const Button = (props: Props) => {
   const icon = props.icon;
 
   return (
-    <FontAwesomeIcon icon={icon} />
+    <FontAwesomeIcon icon={icon} className="icon" />
   );
 };
 
