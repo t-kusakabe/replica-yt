@@ -8,7 +8,7 @@ const Header = (props: any) => (
       type='text'
       placeholder="検索"
     />
-    <ButtonComponent content='ハンバーガーボタン' />
+    <ButtonComponent icon='search' />
   </header>
 );
 

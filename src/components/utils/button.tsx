@@ -1,12 +1,15 @@
 import * as React from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
+import fontawesome from './fontawesome';
+fontawesome;
 
 const Button = (props: any) => {
-  const content: string = props.content;
+  const icon: IconProp = props.icon;
 
   return (
-    <button>
-      {content}
-    </button>
+    <FontAwesomeIcon icon={icon} />
   );
 };
 
