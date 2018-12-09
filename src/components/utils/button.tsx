@@ -5,8 +5,12 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import fontawesome from './fontawesome';
 fontawesome;
 
-const Button = (props: any) => {
-  const icon: IconProp = props.icon;
+interface Props {
+  icon: IconProp;
+};
+
+const Button = (props: Props) => {
+  const icon = props.icon;
 
   return (
     <FontAwesomeIcon icon={icon} />
