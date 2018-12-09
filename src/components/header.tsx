@@ -7,9 +7,9 @@ const Header = () => (
   <header>
     <ButtonComponent icon='bars' />
     <img
-      className="logo"
       src={logo}
       alt='logo.png'
+      className="logo"
     />
     <input
       type='text'
