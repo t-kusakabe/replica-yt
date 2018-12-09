@@ -5,6 +5,7 @@ import ButtonComponent from './utils/button';
 
 const Header = () => (
   <header>
+    <ButtonComponent icon='bars' />
     <img
       className="logo"
       src={logo}
