@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel --https index.html -d public --hmr-port 8080"
+    "start": "parcel index.html -d public --hmr-port 8080"
   },
   "dependencies": {
     "react": "^16.6.3",
