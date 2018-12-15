@@ -1,5 +1,4 @@
 const initialState = {
-  foo: ''
 };
 
 const reducer = (state = initialState, action: any) => {
