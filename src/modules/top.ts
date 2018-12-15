@@ -2,7 +2,12 @@ const initialState = {
   foo: ''
 };
 
-const reducer = (state = initialState, action: any) => {
+interface IAction {
+  type: string;
+  value: string;
+}
+
+const reducer = (state = initialState, action: IAction) => {
   switch(action.type) {
     case 'TEST':
     return Object.assign({}, state, {
@@ -13,7 +18,7 @@ const reducer = (state = initialState, action: any) => {
   };
 };
 
-export const test = (foo: any) => {
+export const test = (foo: IAction) => {
   return { type: 'TEST', value: 'bar' };
 };
 

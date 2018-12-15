@@ -1,7 +1,11 @@
 const initialState = {
 };
 
-const reducer = (state = initialState, action: any) => {
+interface IAction {
+  type: string;
+}
+
+const reducer = (state = initialState, action: IAction) => {
   switch(action.type) {
     default:
     return state;
