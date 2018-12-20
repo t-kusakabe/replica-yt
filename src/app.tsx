@@ -15,7 +15,7 @@ ReactDOM.render(
       <Header />
       <Sidebar />
       <Top />
-      
+
     </div>
   </Provider>,
   document.querySelector('.app')
